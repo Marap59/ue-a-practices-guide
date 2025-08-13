@@ -2,13 +2,19 @@
 Practices for efficient naming conventions, organized content structure, and readable Blueprint code.
 
 # Premise
-This guide is not meant toi tell you how you must work, but to suggest how you **might** work.
-Don’t have your own personal style? You’re welcome to try mine.Already have one? That’s cool, feel free to read on anyway!
+This guide is not meant to tell you how you must work, but to suggest how you _**might**_ work.
+> Don’t have your own personal style? You’re welcome to try mine.\
+> Already have one? That’s cool, feel free to read on anyway!
 
 ## Credits
 Heavely inspired by [Allars's UE Style Guide](https://github.com/Allar/ue5-style-guide.git)
 
 # Index
+> [Content Structure](#1-Content-Structure)
+
+> [Naming Convention](#2-Naming-Convention)
+
+> [Blueprint Coding Practices](#3-Blueprint-Coding-Practices)  
 
 # 1. Content Structure
 
@@ -85,18 +91,29 @@ Credits to [Starforge Games](https://github.com/StarforgeGames/UE-Style-Guide.gi
 
 ### Sections
 
-> - 2.2.1. [Animations](#221-animations)  
-> - 2.2.2. [Artificial Intelligence](#222-artificial-intelligence)  
-> - 2.2.3. [Blueprints](#223-blueprints)  
-> - 2.2.4. [Materials](#224-materials)  
-> - 2.2.5. [Texture](#225-texture)  
-> - 2.2.6. [Miscellaneous](#226-miscellaneous)  
-> - 2.2.7. [Paper 2D](#227-paper-2d)  
-> - 2.2.8. [Physics](#228-physics)  
-> - 2.2.9. [Sounds](#229-sounds)  
-> - 2.2.10. [User Interface](#2210-user-interface)  
-> - 2.2.11. [Effects](#2211-effects)  
-> - 2.2.12. [Input](#2212-input)  
+> 2.2.1. [Animations](#221-animations)
+
+> 2.2.2. [Artificial Intelligence](#222-artificial-intelligence)
+
+> 2.2.3. [Blueprints](#223-blueprints)
+
+> 2.2.4. [Materials](#224-materials)
+
+> 2.2.5. [Texture](#225-texture)
+
+> 2.2.6. [Miscellaneous](#226-miscellaneous)
+
+> 2.2.7. [Paper 2D](#227-paper-2d)
+
+> 2.2.8. [Physics](#228-physics)
+
+> 2.2.9. [Sounds](#229-sounds)
+
+> 2.2.10. [User Interface](#2210-user-interface)
+
+> 2.2.11. [Effects](#2211-effects)
+
+> 2.2.12. [Input](#2212-input)
 
 ### 2.2.1 Animations
 
