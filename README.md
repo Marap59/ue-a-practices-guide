@@ -274,7 +274,7 @@ For textures that include multiple layers of texture data, _it is common to stac
 |Niagara Simulation Cache|N|SC||
 |Niagara Validation Rule Set|N|VRS||
 
-### 2.2.11. Input
+### 2.2.12. Input
 
 |Asset Type|Prefix|Suffix|Notes|
 |--|--|--|--|
