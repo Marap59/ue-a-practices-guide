@@ -85,7 +85,7 @@ Credits to [Starforge Games](https://github.com/StarforgeGames/UE-Style-Guide.gi
 
 ### Sections
 
-> - 2.2.1. [Animations](#2.2.1-animations)  
+> - 2.2.1. [Animations](#221-animations)  
 > - 2.2.2. [Artificial Intelligence](#artificial-intelligence)  
 > - 2.2.3. [Blueprints](#blueprints)  
 > - 2.2.4. [Materials](#materials)  
