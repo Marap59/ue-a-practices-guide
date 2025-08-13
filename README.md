@@ -81,7 +81,22 @@ Examples:
 
 ## 2.2. Asset Name Modifiers
 
+Credits to [Starforge Games](https://github.com/StarforgeGames/UE-Style-Guide.git) for most of the suffixes and, more importantly, for reminding me of the many different types of assets.
+
 ### Sections
+
+> - 2.2.1. [Animations](#animations)  
+> - 2.2.2. [Artificial Intelligence](#artificial-intelligence)  
+> - 2.2.3. [Blueprints](#blueprints)  
+> - 2.2.4. [Materials](#materials)  
+> - 2.2.5. [Texture](#texture)  
+> - 2.2.6. [Miscellaneous](#miscellaneous)  
+> - 2.2.7. [Paper 2D](#paper-2d)  
+> - 2.2.8. [Physics](#physics)  
+> - 2.2.9. [Sounds](#sounds)  
+> - 2.2.10. [User Interface](#user-interface)  
+> - 2.2.11. [Effects](#effects)  
+> - 2.2.12. [Input](#input)  
 
 ### 2.2.1 Animations
 
@@ -162,9 +177,8 @@ Examples:
 |Render Target|RT|||
 |Cube Render Target|RT|||
 |Texture Light Profile|TLP|||
-\
-\
-For textures that include multiple layers of texture data, it is common to stack the suffixes together into one. There’s no strict ideal order to follow, so I recommend deciding on a consistent style in advance. If you’re working with a team, be sure to discuss and agree on this order together.
+
+For textures that include multiple layers of texture data, _it is common to stack the suffixes together into one_. There’s no strict ideal order to follow, so I recommend deciding on a consistent style in advance. If you’re working with a team, be sure to discuss and agree on this order together.
 
 ### 2.2.6. Miscellaneous
 
