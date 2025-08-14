@@ -301,3 +301,46 @@ For textures that include multiple layers of texture data, _it is common to stac
 |Force Feedback Effect|FFE|||
 
 # 3. Blueprint Coding Practices
+
+When writing code, it is essential to keep it **clean and readable** while minimizing dependencies. This increases modularity and makes it easier for others to work with the code, both now and in the future.\
+In this section of the guide, I will discuss practices specific to Blueprints, focusing in particular on how and when to use Events, Comments, Collapsed Nodes, Functions, and Macros.
+
+## Sections
+
+> 3.1. [Collapsed Nodes and Comments](#31-Collapsed-Nodes-and-Comments)
+
+> 3.2.
+
+> 3.3. 
+
+## 3.1. Collapsed Nodes and Comments
+
+It is common to use comments to group portions of code, ranging from small to more extensive segments, while describing their logic. This is a very useful practice, but depending on the complexity of the Blueprint (BP), there is a risk of ending up overwhelmed by a considerable amount of code, further cluttered by numerous comments. Unless you are a programmer used to working in the dark, the overall view can become quite distracting, as it is not immediately clear what to look at or where to focus first.\
+In my case, I use comments exclusively to group related pieces of logic that belong to the same functional category, providing in a few words an identifying label for each group.
+
+|Example|
+|--|
+|The events related to **graphic** settings are all grouped under a single comment, just as those for **audio** and **input** settings are. Once they are divided into these specific categories, I add another overarching comment that encloses them all, since they are part of a broader group: the events related to **settings**.|
+
+Colors, on the other hand, are very useful for improving visual clarity, especially when the same color is used across multiple Blueprints to identify the same category or type of event.
+
+|Example|
+|--|
+|Use green for common events such as Begin Play and Construct.|
+|Use red for Event Tick.|
+|Use yellow for Enhanced Input events.|
+
+So far, we have seen how to organize code based on logical categories, but there is still the need to describe certain sequences of nodes in more detail. To address this, I make extensive use of the **Collapse Nodes** feature.\
+This proves extremely effective for keeping the graph clean and improving overall readability, even at a glance.\
+As with comments, I group nodes according to a logical criterion; however, when necessary, the name assigned to the collapsed node will be more descriptive than the concise labels used in comments.
+
+|Example|
+|--|
+|In this first image, we can see a main group named `Main Logic`, inside which there are two Collapsed Graphs. If, upon opening the BP, I needed to locate the logic related to `Scale`, knowing that it is part of the main logic, I would already know to look inside `Main Logic`. At that point, I would immediately find the Collapsed Graph named `Move and Scale`, which would contain exactly what I was looking for.
+The second image demonstrates how it is possible to group logic in a way that allows you to directly identify the part of interest, avoiding the need to scroll horizontally through the nodes.|
+
+## 3.2 Functions and Macros
+
+To proceed, it is key to comprehend  what a function is and what it can do:
+> _Functions are node graphs belonging to a particular Blueprint that can be executed, or called, from another graph within the Blueprint._
+> Source: [UE Documentation]()
