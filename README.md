@@ -311,7 +311,7 @@ In this section of the guide, I will discuss practices specific to Blueprints, f
 
 > 3.2. [Functions and Macros](#32-Functions-and-Macros)
 
-> 3.3. 
+> 3.3. [Custom Events](#33-Custom-Events)
 
 ## 3.1. Collapsed Nodes and Comments
 
@@ -339,7 +339,7 @@ As with comments, I group nodes according to a logical criterion; however, when 
 |In this first image, we can see a main group named `Main Logic`, inside which there are two Collapsed Graphs. If, upon opening the BP, I needed to locate the logic related to `Scale`, knowing that it is part of the main logic, I would already know to look inside `Main Logic`. At that point, I would immediately find the Collapsed Graph named `Move and Scale`, which would contain exactly what I was looking for.
 The second image demonstrates how it is possible to group logic in a way that allows you to directly identify the part of interest, avoiding the need to scroll horizontally through the nodes.|
 
-## 3.2 Functions and Macros
+## 3.2. Functions and Macros
 
 To proceed, it is key to comprehend  what a function is and what it can do:
 > _Functions are node graphs belonging to a particular Blueprint that can be executed, or called, from another graph within the Blueprint._
@@ -359,5 +359,9 @@ However, unlike functions, macros are generally used for more practical and util
 |Load or Save settings' variables to a save slot|Conversion of a 2D struct to a custom text format|
 |In an arcade racing game, generate and equip to a player a PowerUp when hitting a Box|Given as input an object, verify and output if it is valid based on specific checks|
 
+## 3.3. Custom Events
+
+Given the highly versatile nature of Custom Events—and events in general—I do not assign them a fixed role within my programming methodology. Excluding common events such as `Tick` and `BeginPlay`, or precompiled ones associated with specific classes, such as `BeginOverlap` for collision components, I will mainly use Custom Events when I need to handle logic containing latent nodes or when it is necessary to implement binding logic.\
+It is important to note that events offer many more possibilities than those mentioned here, but exploring them in detail goes beyond the scope of this guide.
 
 
