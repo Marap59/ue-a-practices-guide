@@ -7,7 +7,7 @@ This guide is not meant to tell you how you must work, but to suggest how you _*
 > Already have one? That’s cool, feel free to read on anyway!
 
 ## Credits
-Heavely inspired by [Allars's UE Style Guide](https://github.com/Allar/ue5-style-guide.git)
+Heavely inspired by [Allars's UE Style Guide](https://github.com/Allar/ue5-style-guide.git).
 
 # Index
 > [Content Structure](#1-Content-Structure)
