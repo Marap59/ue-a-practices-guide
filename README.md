@@ -55,7 +55,6 @@ The main idea is to make folders based on the type of **family** they are going 
     |  |  |  |--Function Libraries
     |  |  |  |--Interfaces
     |  |--Developers
-    |  |  |--Programmers chance to mess here
     |  |--Maps
     |  |  |--City
     |  |  |--FinalLevel
@@ -74,12 +73,24 @@ The main idea is to make folders based on the type of **family** they are going 
     |  |  |--Blueprint
     |  |  |  |--Generic
 ```
+
+|Name|Explanation|
+|--|--|
+|**Audio**|Collection of any type of audio asset. From soundtracks to generic or specific SFXs to Metasound and so on|
+|**Characters**|Collection of NPCs and playable characters. Each has it's own folder and inside there are every type of asset related to that character|
+|**Core**|Folders exclusively for programmers. Contains exclusively assets useful for programming stuff|
+|**Developers**|Programmers chance to throw anything there and not to follow any rule|
+|**Maps**|Each Map/Level has its own folder. Inside it there are also all the assets relative to that map, grouped by Interactive and Non-Interactive assets|
+|**Tools**|Same as `Characters` but for playable tools. Same can be made for `Weapons` for example|
+|**UI**|Same as `Audio` but for assets relative to UI. E.g. WBP, UI textures, videos.|
+
 # 2. Naming Convention
 
 ## 2.1. Base Asset Name
-```Prefix_BaseAssetName_Variant_Suffix```\
-```BaseAssetName``` should be simple and recognizible as well as the ```Variant``` if present.
-For generic assets, use **digits** as ```Variant```.\
+`Prefix_BaseAssetName_Variant_Suffix`\
+\
+`BaseAssetName` should be simple and recognizible as well as the `Variant` if present.
+For generic assets, use **digits** as `Variant`.\
 \
 Examples:
 - BP_Shovel_Broken;
@@ -336,8 +347,8 @@ As with comments, I group nodes according to a logical criterion; however, when 
 
 |Example|
 |--|
-|In this first image, we can see a main group named `Main Logic`, inside which there are two Collapsed Graphs. If, upon opening the BP, I needed to locate the logic related to `Scale`, knowing that it is part of the main logic, I would already know to look inside `Main Logic`. At that point, I would immediately find the Collapsed Graph named `Move and Scale`, which would contain exactly what I was looking for.
-The second image demonstrates how it is possible to group logic in a way that allows you to directly identify the part of interest, avoiding the need to scroll horizontally through the nodes.|
+|![](/images/bp-practices/cn-example-01.jpg)In this first image, we can see a main group named `Main Logic`, inside which there are two Collapsed Graphs. If, upon opening the BP, I needed to locate the logic related to `Scale`, knowing that it is part of the main logic, I would already know to look inside `Main Logic`. At that point, I would immediately find the Collapsed Graph named `Move and Scale`, which would contain exactly what I was looking for.|
+|![](/images/bp-practices/cn-example-02.jpg)The second image demonstrates how it is possible to group logic in a way that allows you to directly identify the part of interest, avoiding the need to scroll horizontally through the nodes.|
 
 ## 3.2. Functions and Macros
 
@@ -355,7 +366,7 @@ However, unlike functions, macros are generally used for more practical and util
 
 |Examples||
 |--|--|
-|Functions|Macros|
+|**Functions**|**Macros**|
 |Load or Save settings' variables to a save slot|Conversion of a 2D struct to a custom text format|
 |In an arcade racing game, generate and equip to a player a PowerUp when hitting a Box|Given as input an object, verify and output if it is valid based on specific checks|
 
