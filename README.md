@@ -309,7 +309,7 @@ In this section of the guide, I will discuss practices specific to Blueprints, f
 
 > 3.1. [Collapsed Nodes and Comments](#31-Collapsed-Nodes-and-Comments)
 
-> 3.2.
+> 3.2. [Functions and Macros](#32-Functions-and-Macros)
 
 > 3.3. 
 
@@ -343,4 +343,21 @@ The second image demonstrates how it is possible to group logic in a way that al
 
 To proceed, it is key to comprehend  what a function is and what it can do:
 > _Functions are node graphs belonging to a particular Blueprint that can be executed, or called, from another graph within the Blueprint._
-> Source: [UE Documentation]()
+> Source: [UE Documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/functions-in-unreal-engine)
+
+From this definition, we can understand that functions have the characteristic of being callable whenever needed. Based on this premise, I will write functions only in the following cases:
+
+- Whenever I need a function like to trigger an event at a specific point in the game, or to allow a third-party actor with a reference to the function’s owner to call it.
+- When I need to repeat the same logic multiple times, avoiding duplicated code, I can use a function. In this case, the function becomes part of a library of useful, reusable logic, which Unreal Engine allows you to access quickly through a dedicated window.
+
+Macros, like functions, are designed to speed up and simplify programming by avoiding duplicated code and making reusable logic available at any time. Macros can also be easily called through the dedicated window in Unreal Engine.
+However, unlike functions, macros are generally used for more practical and utilitarian logic.
+
+|Examples||
+|--|--|
+|Functions|Macros|
+|Load or Save settings' variables to a save slot|Conversion of a 2D struct to a custom text format|
+|In an arcade racing game, generate and equip to a player a PowerUp when hitting a Box|Given as input an object, verify and output if it is valid based on specific checks|
+
+
+
