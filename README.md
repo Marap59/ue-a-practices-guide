@@ -338,8 +338,10 @@ Colors, on the other hand, are very useful for improving visual clarity, especia
 |Example|
 |--|
 |Use green for common events such as Begin Play and Construct.|
-|Use red for Event Tick.|
+|Use blue for Event Tick.|
 |Use yellow for Enhanced Input events.|
+
+**NOTE**: red comments are recommended for debug or uncompleted code.
 
 So far, we have seen how to organize code based on logical categories, but there is still the need to describe certain sequences of nodes in more detail. To address this, I make extensive use of the **Collapse Nodes** feature.\
 This proves extremely effective for keeping the graph clean and improving overall readability, even at a glance.\
