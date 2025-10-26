@@ -170,6 +170,7 @@ Credits to [Starforge Games](https://github.com/StarforgeGames/UE-Style-Guide.gi
 |Structure|S||NO UNDERSCORE|
 |Tutorial Blueprint|TBP|||
 |Widget Blueprint|WBP|||
+|Save Game|BPSG|||
 
 ### 2.2.4. Materials
 
