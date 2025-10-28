@@ -1,4 +1,4 @@
-# ue-a-practices-guide
+# UE a Practices Guide
 Practices for efficient naming conventions, organized content structure, and readable Blueprint code.
 
 # Premise
