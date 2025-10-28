@@ -51,7 +51,7 @@ The main idea is to make folders based on the type of **family** they are going 
     |  |  |--GameModes&Instances
     |  |  |--Utilities
     |  |  |  |--Data Tables
-    |  |  |  |--Enumerators
+    |  |  |  |--Enumerations
     |  |  |  |--Function Libraries
     |  |  |  |--Interfaces
     |  |--Developers
