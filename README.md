@@ -230,6 +230,7 @@ For textures that include multiple layers of texture data, _it is common to stac
 |Level (Gameplay)|L|Gameplay||
 |Matinee Data||Matinee||
 |Media Player|MP|||
+|Media Playlist|MList|||
 |File Media Source|FMS|||
 |Object Library|OL|||
 |Sprite Sheet|SS|||
